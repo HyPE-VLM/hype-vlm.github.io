@@ -1,0 +1,62 @@
+---
+title: Harnessing Hyperbolic Geometry for Harmful Prompt Detection and Sanitization
+authors:
+  - name: Igor Maljkovic
+    institution: University of Genoa, Italy
+    notes: ["*"]
+  - name: Maria Rosaria Briglia
+    institution: Sapienza University of Rome, Italy
+    notes: ["*"]
+  - name: Iacopo Masi
+    institution: Sapienza University of Rome, Italy
+  - name: Antonio Emanuele Cinà
+    institution: University of Genoa, Italy
+    notes: ["†"]
+  - name: Fabio Roli
+    institution: University of Genoa, Italy; University of Cagliari, Italy
+conference: International Conference on Learning Representations (ICLR) 2026
+notes:
+  - symbol: "*"
+    text: Equal contribution
+  - symbol: †
+    text: Correspondence to antonio.cina@unige.it
+links:
+  - name: Paper
+    url: /_ICLR_2026__Harnessing_Hyperbolic_Geometry_for_Harmful_Prompt_Detection-8.pdf
+    icon: ri:file-pdf-2-line
+  - name: Code
+    url: https://github.com/HyPE-VLM/Hyperbolic-Prompt-Detection-and-Sanitization
+    icon: ri:github-line
+
+theme: device
+favicon: favicon.svg
+description: "Vision–Language Models (VLMs) have become essential for tasks such as image synthesis, captioning, and retrieval by aligning textual and visual information in a shared embedding space. Yet, this flexibility also makes them vulnerable to malicious prompts designed to produce unsafe content, raising critical safety concerns. Existing defenses either rely on blacklist filters, which are easily circumvented, or on heavy classifier-based systems, both of which are costly and fragile under embedding-level attacks. We address these challenges with two complementary components: Hyperbolic Prompt Espial (HyPE) and Hyperbolic Prompt Sanitization (HyPS). HyPE is a lightweight anomaly detector that leverages the structured geometry of hyperbolic space to model benign prompts and detect harmful ones as outliers. HyPS builds on this detection by applying explainable attribution methods to identify and selectively modify harmful words, neutralizing unsafe intent while preserving the original semantics of user prompts. Through extensive experiments across multiple datasets and adversarial scenarios, we prove that our framework consistently outperforms prior defenses in both detection accuracy and robustness. Together, HyPE and HyPS offer an efficient, interpretable, and resilient approach to safeguarding VLMs against malicious prompt misuse."
+thumbnail: screenshot-light.png
+---
+
+import HighlightedSection from "./components/HighlightedSection.astro";
+import Figure from "./components/Figure.astro";
+import Picture from "./components/Picture.astro";
+import TwoColumns from "./components/TwoColumns.astro";
+import Wide from "./components/Wide.astro";
+
+<HighlightedSection>
+
+## Abstract
+
+Vision–Language Models (VLMs) have become essential for tasks such as image synthesis, captioning, and retrieval by aligning textual and visual information in a shared embedding space. Yet, this flexibility also makes them vulnerable to malicious prompts designed to produce unsafe content, raising critical safety concerns. Existing defenses either rely on blacklist filters, which are easily circumvented, or on heavy classifier-based systems, both of which are costly and fragile under embedding-level attacks. We address these challenges with two complementary components: Hyperbolic Prompt Espial (HyPE) and Hyperbolic Prompt Sanitization (HyPS). HyPE is a lightweight anomaly detector that leverages the structured geometry of hyperbolic space to model benign prompts and detect harmful ones as outliers. HyPS builds on this detection by applying explainable attribution methods to identify and selectively modify harmful words, neutralizing unsafe intent while preserving the original semantics of user prompts. Through extensive experiments across multiple datasets and adversarial scenarios, we prove that our framework consistently outperforms prior defenses in both detection accuracy and robustness. Together, HyPE and HyPS offer an efficient, interpretable, and resilient approach to safeguarding VLMs against malicious prompt misuse.
+
+</HighlightedSection>
+
+## Citation
+
+```bibtex
+@inproceedings{maljkovic2026hype,
+  title={Harnessing Hyperbolic Geometry for Harmful Prompt Detection and Sanitization},
+  author={Maljkovic, Igor and Briglia, Maria Rosaria and Masi, Iacopo and Cinà, Antonio Emanuele and Roli, Fabio},
+  booktitle={International Conference on Learning Representations},
+  year={2026}
+}
+```
+
+
