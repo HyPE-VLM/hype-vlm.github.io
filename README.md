@@ -4,7 +4,7 @@ A research project page for the paper "Harnessing Hyperbolic Geometry for Harmfu
 
 ## About
 
-This repository contains the project page for HyPE and HyPS, a framework for detecting and sanitizing malicious prompts in Vision-Language Models. The project includes two complementary components:
+This repository contains the project page for HyPE and HyPS, two frameworks for detecting and sanitizing malicious or harmful prompts in Vision-Language Models. 
 
 - **HyPE** (Hyperbolic Prompt Espial): A lightweight anomaly detector using hyperbolic geometry;
 - **HyPS** (Hyperbolic Prompt Sanitization): An interpretable sanitization method using attribution and LLM-based rewriting.
